@@ -1,0 +1,7 @@
+
+<div class="middle-card">
+<% @articles.each do |task| %>
+<h2><%= link_to task.title, article_path(task) %></h2>
+
+<% end %>
+</div>

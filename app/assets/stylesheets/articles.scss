@@ -1,0 +1,32 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+ @import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+
+ body {
+    font-family: 'Lacquer', sans-serif;
+ }
+
+.upper-navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e0e0e0;
+  padding: 0px 10px;
+  a {
+    font-weight: bold;
+}
+}
+
+.middle-card {
+  text-align: center;
+}
+
+.go-back-links {
+  font-size: 50px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
